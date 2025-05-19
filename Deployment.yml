@@ -19,3 +19,11 @@ spec:
           image: chxtan/reddit-clone
           ports:
             - containerPort: 3000
+
+
+
+
+Apply
+kubectl apply -f Deployment.yml
+kubectl get deployments
+
