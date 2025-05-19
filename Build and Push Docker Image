@@ -1,0 +1,3 @@
+docker build . -t chxtan/reddit-clone
+docker login    # Enter Docker Hub credentials
+docker push chxtan/reddit-clone
